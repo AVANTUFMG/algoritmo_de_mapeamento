@@ -27,11 +27,12 @@ public:
 	void mostrarTodosVertices();
 	void mostrarTodasArestas();
 
-	//bool ehConvexo();
+	bool ehConvexo();
 
-	//bool contemPonto(Point* ponto);
+	bool contemPonto(Point ponto);
 
-	//void calcularArea();
+	void calcularArea();
+	double getArea();
 
 };
 
